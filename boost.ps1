@@ -232,7 +232,7 @@ while ($running) {
                 2 { 
                     $running =$false 
                     [Console]::Clear()
-                    Write-Host "Exiting program..." -ForegroundColor Yellow
+                    Write-Head "Exiting program..." -ForegroundColor Yellow
                     [Console]::CursorVisible = $true
                     Start-Sleep -Milliseconds 500
                 }
